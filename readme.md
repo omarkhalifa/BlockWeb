@@ -70,7 +70,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
-(images/BolPuntCom_BreakdownSchets1.PNG)
-(images/BolPuntCom_Mobiel)
-(Images/Breakdown)
-(Images/Breakdown1)
+(images/BolPuntCom_BreakdownSchets1.png)
+(images/BolPuntCom_Mobiel.png)
+(Images/Breakdown.png)
+(Images/Breakdown1.png)
