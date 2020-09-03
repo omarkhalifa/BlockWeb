@@ -69,6 +69,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Breakdown-schets(en):**
 
 ![voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken](images/BolPuntCom_BreakdownSchets1.png)
-[](images/BolPuntCom_Mobiel.png)
-[](Images/Breakdown.png)
-[](Images/Breakdown1.png)
+[Mobiel](images/BolPuntCom_Mobiel.png)
+[Breakdown Header](Images/Breakdown.png)
+[Breakdown Body](Images/Breakdown1.png)
