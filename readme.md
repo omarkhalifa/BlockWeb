@@ -20,7 +20,10 @@ Het zelfde heb ik gedaan met px werken ipv met em. Op de 1 of andere manier leek
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+(images/screenshots/index.png)
+(images/screenshots/product.png)
+(../images/screenshots/index.png)
+(../images/screenshots/product.png)
 
 
 ## Voortgang 3 (week 6)
