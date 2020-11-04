@@ -70,7 +70,6 @@ div.row.scroll {
 	position: relative;
 	flex-wrap: nowrap;
 	overflow-x: scroll;
-	scroll-snap-type: x mandatory;
 }
 
 div.knoppen {
@@ -176,6 +175,7 @@ header .menu.mobile .hamburger {
 	margin-right: 20px;
 }
 
+
 header .menu.mobile .logo {
 	margin-top: -6px;
 	height: 40px;
@@ -241,6 +241,8 @@ header div.blauwebalk div.account {
 	color: var(--color-white);
 }
 
+
+
                     /* Header > menu */
 header ul.menu {
 	height: 30px;
@@ -297,9 +299,6 @@ a.banner {
 	text-decoration: none;
 }
 
-a.banner.banner-big {
-}
-
 a.banner.banner-medium {
 	position: relative;
 	width: calc(50% - 20px);
@@ -311,6 +310,7 @@ a.banner.banner-medium {
 	display: block;
 }
 
+/* achtergrond kleurtjes */
 a.banner-medium:nth-of-type(1) {
 	background-color: var(--color-orange);
 }
@@ -327,6 +327,7 @@ a.banner-medium:nth-of-type(4) {
 	background-color: var(--color-pink-3);
 }
 
+/* tekst kortingen */
 a.banner.banner-medium span {
 	color: var(--color-blue);
 	font-family: var(--ff-secondary);
@@ -334,6 +335,8 @@ a.banner.banner-medium span {
 	font-size: 20px;
 }
 
+
+/* blauwe knoppen */
 a.banner.banner-medium span.button {
 	display: flex;
 	justify-content: center;
@@ -355,6 +358,8 @@ a.banner.banner-medium span.button {
 	z-index: 20;
 }
 
+
+/* namen categorie */
 a.banner-categorie,
 a.product {
 	display: flex;
@@ -362,20 +367,25 @@ a.product {
 	align-items: center;
 	height: auto;
 	color: var(--color-dark);
+	
 }
 
+/* container dit zijn hardlopers */
 a.product {
 	width: calc(100% - 80px);
 }
 
+/* categorie */
 a.banner-categorie {
 	width: calc(40% - 20px);
 }
 
+/* cadeaus voor iedereen */
 a.banner.banner-wide {
 	width: 100%;
 }
 
+/* dit zijn hardlopers */
 a.product {
 	text-decoration: none;
 	display: flex;
@@ -385,9 +395,11 @@ a.product {
 	margin: 0 20px 20px 0;
 }
 
+/* dit zijn hardlopers hover element */
 a.product:hover span.titel {
 	text-decoration: underline;
 }
+
 
 a.product img {
 	margin-bottom: 20px;
@@ -596,13 +608,20 @@ footer img.logo {
 	height: auto;
 }
 
-/* Einde Bol.com Logo */
 
 /* Smartphone versie */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 100px) {
 	/* header */
+	
+	header div.blauwebalk div.account a.heart img {
+	display: none;	
+}
 
+	header div.blauwebalk div.account a.cart img{
+	display: none;
+	
+}
 	/* body */
 	a.banner.banner-categorie {
 		width: calc(33.333% - 20px);
@@ -630,6 +649,8 @@ footer img.logo {
 	header div.blauwebalk img.logo {
 		display: block;
 	}
+		
+
 
 	/* body */
 	a.banner.banner-medium,
