@@ -6,7 +6,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Bol.com</title>
-		<link rel="stylesheet" href="styles/style.css" />
+		<link  rel="stylesheet" href="styles/style.css" />
 	</head>
     
 	<body>
@@ -14,7 +14,7 @@
 <!--- Begin Header --->
         
 		<header>
-			<div class="wrapper">
+			<div class="container">
 				<div class="menu mobile">
 					<span class="hamburger"></span>
 					<a href="index.html">
@@ -73,14 +73,14 @@
 <!--- Einde Header --->
 
 		<article class="product">
-			<div class="wrapper">
+			<div class="container">
 				<div class="column">
 					<h1>SD Kaart 64 GB</h1>
 					<img src="images/products/sd.jpg" alt="" />
                     
 <!--- Begin product prijs --->
                     
-					<select name="option" id="option" class="option">
+					<select name="option" class="option">
 						<option prijs="9,99" value="SD Kaart 16 GB" >16 GB</option>
 						<option prijs="19,99" value="SD Kaart 32 GB" >32 GB</option>
 						<option prijs="29,99" value="SD Kaart 64 GB" selected>64 GB</option>
@@ -96,7 +96,7 @@
 					<p class="info">Uiterlijk morgen in huis</p>
                     
 					<div class="shopping">
-						<select name="amount" id="amount">
+						<select name="amount">   
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -108,9 +108,9 @@
                         
 <!--- Favorieten --->
                         
-						<a id="favoriet" onclick="toggleActive('favoriet')" class="favoriet"></a>
+						<a class="favoriet"></a>     
                         
-<!--- Einde Favorieten (id moet nog weg) --->                        
+<!--- Einde Favorieten --->                        
                         
 					</div>
                     
@@ -184,7 +184,7 @@
 		</article>
 
 		<footer>
-			<div class="wrapper">
+			<div class="container">
 				<img class="logo" src="images/logo-white.png" alt="" />
 				<a href="#">Algemene voorwaarden</a>
 				<a href="#">Privacy</a>

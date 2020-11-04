@@ -12,6 +12,7 @@
     --color-pink-1: #FF687F;
     --color-pink-2: #FFDAF6;
     --color-pink-3: #FFA6E9;
+	--color-red: #FF0000;
 
 
 	--ff-primary: Graphik, Arial, Helvetica, sans-serif;
@@ -31,6 +32,13 @@
 	font-family: "Pridi";
 	src: url("../fonts/webfonts_Pridi-SemiBold/Pridi-SemiBold.ttf.woff");
 }
+
+
+
+
+
+
+
 
 
                     /* Einde Fonts */
@@ -133,11 +141,21 @@ header {
 	overflow: hidden;
 }
 
-div.wrapper {
+
+
+div.container {
 	width: 1200px;
 	max-width: 100%;
 	margin: 0 auto;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -249,7 +267,15 @@ header ul.menu li::after {
     background-repeat: no-repeat;
 }
 
-                        /* Content */
+
+
+
+
+
+
+
+
+                        /* Index Content */
 
 article {
 	width: 100%;
@@ -339,7 +365,7 @@ a.product {
 }
 
 a.product {
-	width: calc(50% - 20px);
+	width: calc(100% - 80px);
 }
 
 a.banner-categorie {
@@ -385,9 +411,7 @@ a.banner img {
 	height: auto;
 }
 
-span.prijs {
-	color: red;
-}
+
 
 
 
@@ -395,13 +419,18 @@ span.prijs {
 
                         /* Product page */
 
-article.product .wrapper {
+
+
+/* hele container */
+article.product .container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
 }
 
+/* linker en rechter column */
 article.product .column {
 	display: flex;
 	flex-direction: column;
@@ -410,12 +439,14 @@ article.product .column {
 
 article.product .column > * {
 	margin-top: 10px;
+	
 }
 
 article.product p,
 article.product h3,
 article.product h2 {
 	max-width: 100%;
+	
 }
 
 
@@ -423,41 +454,52 @@ article.product h2 {
 
 article.product img {
 	margin: 0 auto 20px;
+	
 }
 
-/* Einde SD kaart afbeelding */
-
+/* uiterlijk morgen in huis */
 article.product p.info {
 	color: var(--color-green);
 }
 
+/* wat je kan verwachten */
 article.product p.no-margin {
 	margin-bottom: 0;
 }
 
+/* groene woorden */
 article.product strong {
 	color: var(--color-green);
 	font-family: var(--ff-secondary);
 	font-size: 16px;
 }
 
+/* Lijst met vinkjes */
 article.product ul {
 	list-style-type: "✅";
 	padding-left: 20px;
 }
 
+/* prijs 29.99 */
 article.product span.prijs.rood{
 	font-size: 32px;
 	font-weight: bolder;
 	font-family: var(--ff-secondary);
 }
 
+/* rode letter prijzen */
+span.prijs {
+	color: var(--color-red);
+}
+
+/* aantal gb */
 article.product select.option {
 	width: 100%;
 	padding: 10px;
 	height: 50px;
 }
 
+/* container dropdown aantal t/m hartje */
 article.product div.shopping {
 	display: flex;
 	gap: 10px;
@@ -465,6 +507,7 @@ article.product div.shopping {
 	margin-bottom: 20px;
 }
 
+/* beide dropdowns */
 article.product select {
 	width: 60px;
 	padding: 10px;
@@ -472,7 +515,7 @@ article.product select {
 }
 
 
-
+/* winkelwagen */
 a.button.winkelwagen {
 	background-color: var(--color-yellow);
 	padding: 15px 20px;
@@ -487,7 +530,7 @@ a.button.winkelwagen {
 
 
 
-/* Favoriet button */
+/* hartje */
 
 a.favoriet {
 	padding: 10px 20px;
@@ -521,6 +564,9 @@ a.favoriet[active] {
 /* Einde Favoriet button */
 
 
+
+
+
 /* Footer */
 
 footer {
@@ -531,7 +577,7 @@ footer {
 	text-align: center;
 }
 
-footer .wrapper {
+footer .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
